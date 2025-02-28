@@ -63,7 +63,7 @@ Lista de Tecnologias: Adicione e remova tecnologias que deseja aprender.
 
 Resultado Final: Resumo das escolhas com mensagem de incentivo.
 
-🙌 Agradecimentos
+🙌 Agradecimentos:
 Alura pelo desafio incrível e pela oportunidade de praticar lógica de programação.
 
 Comunidade de Desenvolvimento pelo apoio e inspiração.
