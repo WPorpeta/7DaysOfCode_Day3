@@ -37,3 +37,34 @@ O design do projeto foi inspirado no site da **Alura**, utilizando cores e estil
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/WPorpeta/7days-of-code-logica-js.git
+
+2. **Abra o projeto**: Navegue ate a pasta do projeto
+    cd 7days-of-code-logica-js
+
+3. **Jogue**
+    Siga as instruções na tela para fazer suas escolhas e ver o resultado final.
+
+7days-of-code-logica-js/
+│
+├── index.html          # Página principal do projeto
+├── style.css           # Estilos CSS
+├── app.js              # Lógica do jogo em JavaScript
+├── README.md           # Documentação do projeto
+└── assets/             # Pasta para ícones ou imagens (se necessário)
+
+🎯 Funcionalidades
+Escolha de Área: Front-End ou Back-End.
+
+Seleção de Tecnologia: React, Vue, C# ou Java.
+
+Especialização: Escolha entre se especializar ou se tornar Fullstack.
+
+Lista de Tecnologias: Adicione e remova tecnologias que deseja aprender.
+
+Resultado Final: Resumo das escolhas com mensagem de incentivo.
+
+🙌 Agradecimentos
+Alura pelo desafio incrível e pela oportunidade de praticar lógica de programação.
+
+Comunidade de Desenvolvimento pelo apoio e inspiração.
+
