@@ -1,0 +1,216 @@
+/* Cores e fontes da Alura */
+:root {
+    --alura-blue: #7800c8;
+    --alura-dark: #2D2D2D;
+    --alura-gray: #F5F5F5;
+    --alura-white: #FFFFFF;
+    --alura-text: #333333;
+    --alura-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--alura-gray);
+    color: var(--alura-text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: var(--alura-white);
+    border-radius: 10px;
+    box-shadow: var(--alura-shadow);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Tema do desafio */
+.tema {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: var(--alura-blue);
+    color: var(--alura-white);
+    border-radius: 10px;
+}
+
+.tema h2 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.tema h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+
+/* Botões */
+button {
+    background-color: var(--alura-blue);
+    color: var(--alura-white);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00A85C;
+}
+
+/* Estilo para o botão Voltar */
+.btn-voltar {
+    background-color: var(--alura-dark);
+    margin-left: 10px;
+}
+
+.btn-voltar:hover {
+    background-color: #1A1A1A;
+}
+
+/* Inputs e selects */
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: var(--alura-white);
+    color: var(--alura-text);
+}
+
+select:focus, input:focus {
+    border-color: var(--alura-blue);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 200, 111, 0.3);
+}
+
+/* Lista de tecnologias */
+#listaTecnologias {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#listaTecnologias li {
+    padding: 12px;
+    margin: 8px 0;
+    background-color: var(--alura-gray);
+    border-left: 4px solid var(--alura-blue);
+    border-radius: 5px;
+    font-size: 1em;
+    color: var(--alura-text);
+}
+
+/* Estilo para o botão de exclusão */
+.btn-excluir {
+    background-color: #FF4D4D;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-excluir:hover {
+    background-color: #E60000;
+}
+
+/* Resultado final */
+#resultadoFinal {
+    background-color: var(--alura-white);
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid rgba(0, 200, 111, 0.1);
+    box-shadow: var(--alura-shadow);
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#resultadoFinal h2 {
+    color: var(--alura-dark);
+    font-size: 2em;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+#resultadoFinal p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: var(--alura-text);
+}
+
+#resumoArea, #resumoTecnologia, #resumoEspecializacao {
+    font-weight: 500;
+    color: var(--alura-blue);
+}
+
+#resumoTecnologias {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: var(--alura-gray);
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 1.1em;
+    color: var(--alura-dark);
+}
+
+/* Mensagem de incentivo */
+.mensagem-incentivo {
+    margin-top: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, var(--alura-blue), #00A85C);
+    color: var(--alura-white);
+    border-radius: 10px;
+    font-size: 1.2em;
+    line-height: 1.8;
+    box-shadow: 0 4px 15px rgba(0, 200, 111, 0.3);
+}
+
+.mensagem-incentivo strong {
+    font-weight: 600;
+    color: var(--alura-white);
+}
+
+/* Ícones de tecnologias */
+.icone-tecnologia {
+    font-size: 1.5em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Botão Reiniciar */
+#reiniciar {
+    margin-top: 30px;
+    background-color: var(--alura-dark);
+}
+
+#reiniciar:hover {
+    background-color: #1A1A1A;
+}

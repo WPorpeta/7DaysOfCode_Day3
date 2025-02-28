@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Alura - 7DaysOfCode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tema do desafio -->
+        <div class="tema">
+            <h2>Bem-vindo ao desafio da Alura</h2>
+            <h1>#7DaysOfCode - Lógica JS 3/7: Fluxo de decisão</h1>
+        </div>
+        
+        <h1>Escolha seu caminho na Programação!</h1>
+        
+        <!-- Passo 1: Escolher Front ou Back -->
+        <div id="etapa1">
+            <p>1. Você quer seguir para:</p>
+            <select id="area">
+                <option value="">Selecione uma opção</option>
+                <option value="front">Front-End</option>
+                <option value="back">Back-End</option>
+            </select>
+            <button id="confirmarArea">Confirmar</button>
+        </div>
+
+        <!-- Passo 2: Escolher tecnologia específica -->
+        <div id="etapa2" class="hidden">
+            <p id="perguntaTecnologia"></p>
+            <select id="tecnologia">
+                <!-- Opções serão preenchidas dinamicamente -->
+            </select>
+            <button id="confirmarTecnologia">Próximo</button>
+            <button id="voltarEtapa1" class="btn-voltar">Voltar</button>
+        </div>
+
+        <!-- Passo 3: Especializar ou Fullstack -->
+        <div id="etapa3" class="hidden">
+            <p>3. Você quer:</p>
+            <select id="especializacao">
+                <option value="especializar">Se especializar na área</option>
+                <option value="fullstack">Virar Fullstack</option>
+            </select>
+            <button id="confirmarEspecializacao">Próximo</button>
+            <button id="voltarEtapa2" class="btn-voltar">Voltar</button>
+        </div>
+
+        <!-- Passo 4: Adicionar tecnologias -->
+        <div id="etapa4" class="hidden">
+            <p>4. Adicionar tecnologias:</p>
+            <div id="adicionarTecnologiaSection">
+                <input type="text" id="novaTecnologia" placeholder="Digite uma tecnologia">
+                <button id="adicionarTecBtn">Adicionar</button>
+            </div>
+            <ul id="listaTecnologias"></ul>
+            <button id="finalizar">Finalizar</button>
+            <button id="voltarEtapa3" class="btn-voltar">Voltar</button>
+        </div>
+
+        <!-- Área de resultados -->
+        <div id="resultadoFinal" class="hidden">
+            <!-- Conteúdo será preenchido dinamicamente -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
